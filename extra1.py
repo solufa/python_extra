@@ -55,7 +55,7 @@ def update_player(map: Map, player: Player, direction: Direction) -> Player:
 
 def main():
     map = reset_map()
-    player = {"x": 1, "y": 2}
+    player = {"x": 3, "y": 6}
 
     while True:
         display_map(map, player)
